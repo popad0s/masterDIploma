@@ -1,0 +1,52 @@
+
+
+.ChooseCampus {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.pageHeader {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.pageHeader div {
+    margin: 40px;
+}
+
+.container {
+    width: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border: 1px solid gray;
+    border-radius: 10%;
+    padding: 0 40px 40px 40px;
+}
+
+.firstChild {
+    margin-top: 50px;
+}
+
+.container:hover {
+    box-shadow: 10px 0 7px gray;
+}
+
+.container select {
+    width: 200px;
+}
+
+.container button {
+    margin-top: 50px;
+    width: 200px;
+}
+
+.selectsFromTo {
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+}

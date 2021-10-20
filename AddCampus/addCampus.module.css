@@ -1,0 +1,31 @@
+
+
+.AddCampus {
+    display: flex;
+    flex-direction: column;
+}
+
+.AddCampus form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid gray;
+    border-radius: 15px;
+    padding: 50px;
+}
+
+.AddCampus form :last-child {
+    margin-top: 20px;
+}
+
+.AddCampus input {
+    margin-top: 10px;   
+    width: 300px;
+    display: flex;
+    justify-content: center;
+}
+
+.AddCampus input:after {
+    content: '*'
+}
